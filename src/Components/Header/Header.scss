@@ -1,0 +1,47 @@
+.header {
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
+
+  .homelogo {
+    margin-right: 38px;
+    margin-left: 36px;
+  }
+
+  .header__list {
+    display: flex;
+    list-style: none;
+    margin-left: 384px;
+    gap: 65px;
+  }
+
+  .list__item {
+    gap: 65px;
+  }
+
+  .header__link {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(97, 99, 100);
+    transition: .4s;
+
+    &:hover {
+      text-decoration: underline #B69874;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 9px;
+      color: rgb(0, 0, 0);
+      transform: scale(1.3s);
+    }
+  }
+
+  .header__btn {
+    border: none;
+    background: none;
+    margin-left: 216px;
+  }
+}
